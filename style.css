@@ -14,6 +14,7 @@ main {
     display: flex;
     flex-direction: column;
     height: 100%;
+
 }
 
 .hero {
@@ -25,9 +26,10 @@ main {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    font-size: 150px;
+    font-size: 12vw;
+    padding-left: 2vw;
     background-image: url(https://goolo.my.canva.site/exercise-1/images/cbd7a47024203a6a686955c639b2b911.png);
-    
+
 }
 
 #logo {
@@ -45,7 +47,7 @@ main {
     flex-direction: row-reverse;
 }
 
-.photos {
+.photos1 {
     background-color: rgb(228, 240, 236);
     flex: 0.3;
     display: flex;
@@ -59,7 +61,7 @@ main {
     text-align: center;
     justify-content: flex-start;
     color: rgb(28, 91, 145);
-    font-size: 35px;
+    font-size: 2vw;
     flex: 1;
 }
 
@@ -69,14 +71,15 @@ main {
     justify-content: flex-start;
     color: rgb(28, 91, 145);
     flex: 1;
-    font-size: 35px;
+    font-size: 2vw;
 }
 
 #div3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;
+    font-size: 2vw;
     color: rgb(28, 91, 145);
     flex: 1;
+    padding-left: 1.5vw;
 }
 
 #photo1 {
@@ -108,16 +111,19 @@ main {
 .contact {
     background-color: rgb(177, 196, 190);
     flex: 0.1;
+    padding-left: 0.8vw;
 }
 
 #div4 {
+    display: flex;
+    flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 45px;
+    font-size: 3vw;
     color: rgb(28, 91, 145);
 }
 
 #div5 {
-    font-size: 30px;
+    font-size: 2vw;
     color: aliceblue;
 }
 
@@ -129,7 +135,7 @@ footer {
     justify-content: space-around;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(81, 163, 136);
-    font-size: 30px;
+    font-size: 3.5vw;
 }
 
 #features {
@@ -141,11 +147,98 @@ footer {
 #footer-logo {
     display: flex;
     justify-content: center;
-    flex: 1;
+    flex: 0.7;
 }
 
 #newsletter {
-    flex: 1;
+    flex: 0.8;
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 833px) and (max-height: 1000px) {
+    #logo {
+        width: 10vw;
+        height: 8vh;
+    }
+
+    /* .shop {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+        overflow: hidden;
+    
+    } */
+    /* #div1 {
+        font-size: 2.3vw;
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+        flex: 0.4;
+    }
+
+    #div2 {font-size: 2.3vw;
+    display: flex;
+align-items: stretch;
+flex-direction: row;
+flex: 0.4;} */
+
+    #div3 {
+        flex: 0.3;
+        font-size: 4vw;
+    }
+
+    #div4 {
+        font-size: 5vw;
+    }
+
+    #div5 {
+        font-size: 3vw;
+    }
+
+    .contact {}
+
+    .photos {
+        width: 12rem;
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 1051px) and (max-height: 1000px) {
+    #div1 {
+        font-size: 2.3vw;
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+        flex: 0.4;
+    }
+
+    #div2 {
+        font-size: 2.3vw;
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+        flex: 0.4;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+        overflow: hidden;
+
+    }
+
+    #div3 {
+        flex: 0.1;
+    }
+
+    
+}
+
+/* @media screen and (max-width: 1664px) and (max-height: 1000px) {
+    #logo {
+        width: 10vw;
+        height: 8vh;}
+
+} */

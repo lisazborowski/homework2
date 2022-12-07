@@ -7,11 +7,12 @@
 
 body {
     width: 100vw;
-    height: 3420px;
+    height: 2836px;
 }
 
 main {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     height: 100%;
 }
@@ -19,7 +20,7 @@ main {
 .hero {
     background-size: cover;
     background-position: center;
-    flex: 0.27;
+    flex: 1;
     padding: 1vh 1vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 255, 255);
@@ -54,10 +55,11 @@ main {
 
 .shop {
     background-color: rgb(177, 196, 190);
-    flex: 0.29;
+    flex: 1.5;
     display: flex;
     justify-content: flex;
     flex-direction: row;
+    padding: 1vh 1vw;
 }
 
 .shop-text-container {
@@ -103,7 +105,7 @@ main {
 
 .models {
     background-color: rgb(107, 144, 128);
-    flex: 0.15;
+    flex: 1;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -117,13 +119,14 @@ main {
 
 .contact {
     background-color: rgb(204, 227, 222);
+    flex: 1;
 }
 
 .contact-container {
     display: flex;
     flex-direction: column;
     color: rgb(28, 91, 145);
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 1vh 1vw;
 }
@@ -132,7 +135,7 @@ footer {
     flex: 0.04;
     padding: 1vh 1vw;
     background-color: rgb(228, 240, 236);
-    flex: 0.04;
+    flex: 0.2;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
